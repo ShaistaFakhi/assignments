@@ -1,1 +1,0 @@
-//syntax - Declaration variable : datatype = Data
