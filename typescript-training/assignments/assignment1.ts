@@ -67,7 +67,7 @@ let movie_rating :number = 7.5;
     console.log(`Person's eye color : ${EYE_COLOR}`);
 // 19.Person's birthplace: "New York City"
     const BIRTH_PLACE : string = "New York City"
-    console.log(`Person's birthplace : ${bank_balance}`);
+    console.log(`Person's birthplace : ${BIRTH_PLACE}`);
 // 20. Distance between two cities: 200.5
     let distance : number = 200.5;
     console.log(` Distance between two cities : ${distance}`);
