@@ -48,17 +48,8 @@ let movie_rating :number = 7.5;
     let total_employees : number = 500;
     console.log(`Number of employees in a company : ${total_employees}`);
 // 16.Time of an event: 2:30 PM
-    interface EventTime {
-    hour: number;   
-    minute: number; 
-    period: 'AM' | 'PM';
-    }
-    const meetingTime: EventTime = {
-     hour: 2,
-     minute: 30,
-     period: 'PM'
-    };
-    console.log(`Time of an event : ${meetingTime}`);
+    let eventTime: string = "2:30 PM";
+    console.log(`Time of an event : ${eventTime}`);
 // 17.Name of a country: "United States"
     const COUNTRY_NAME : string = "United States";
     console.log(`Name of a country : ${COUNTRY_NAME}`);
@@ -67,7 +58,7 @@ let movie_rating :number = 7.5;
     console.log(`Person's eye color : ${EYE_COLOR}`);
 // 19.Person's birthplace: "New York City"
     const BIRTH_PLACE : string = "New York City"
-    console.log(`Person's birthplace : ${BIRTH_PLACE}`);
+    console.log("Person's birthplace", BIRTH_PLACE);
 // 20. Distance between two cities: 200.5
     let distance : number = 200.5;
     console.log(` Distance between two cities : ${distance}`);
