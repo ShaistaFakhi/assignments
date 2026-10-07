@@ -17,14 +17,12 @@ for(let i :number =0; i<transactions.length; i++){
         totalCreditTrn ++;
         creditamt += transactions[i]!
         if(transactions[i]!>10000){
-            console.log("Suspicious credit Transaction with Amount");
             suspiciousCreditTrn++;
         }
     }else{
         totalDebitTrn ++;
         debitamt += transactions[i]!;
         if(transactions[i]!<-10000){
-            console.log("Suspicious debit Transaction with Amount");
             suspiciousDebitTrn++;
         }
     }

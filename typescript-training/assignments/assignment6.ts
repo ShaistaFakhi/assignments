@@ -1,11 +1,12 @@
 
 //Given a number n, determine whether it is a prime number or not. 
 //A prime number is a number greater than 1 that has no positive divisors other than 1 and itself.
-let no :number = 21;
+//Find if the number is prime or
+let no:number = 21;
 let prime : boolean = true;
 
     if(no<=1){
-        console.log("1 is not a prime number");
+        console.log(no+ ": is not a prime number");
         prime = false;
     } 
 
