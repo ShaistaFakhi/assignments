@@ -1,6 +1,4 @@
 //Loop statements are all about adding a condition to repeat the execution of statements. 
-
-
 //There are mainly two major loop statements available in TypeScript. 
 
 //1. for loop => When we know the total number of iterations to be executed before itself 

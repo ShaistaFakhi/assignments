@@ -43,7 +43,7 @@ function empDetails(empId: number, empName: string, empAge?: number): void { //?
 //calling function
 empDetails(1234, "Bharath");
 
-//4. Functions with default parameters 
+//5. Functions with default parameters 
 
 function empInfo(empId: number, empName: string, empVisaStatus: boolean = false): void {
     console.log(empId);
@@ -59,7 +59,7 @@ empInfo(1234,"Bharath");
 function sumOfNumbers(...input:number[]):number{
     let sum = 0;
     for(let val of input){
-        sum = sum+val;
+        sum = sum + val;
     }
     return sum;
 }
