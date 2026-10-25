@@ -34,8 +34,8 @@ class Employee {
 
     empId:number =0;
 
-    constructor(id:number){
-        this.empId = id;   //this meaning current class instance / current class variable
+    constructor(idi:number){
+        this.empId = idi;   //this meaning current class instance / current class variable
     }
 
     //method 1

@@ -47,15 +47,10 @@
 //Runtime polymorphism is all about having multiple methods with the same name and same parameters between parent and child classes. 
 
 class Parent {
-
-   
-
     printEmpData(empName:string):void{
         console.log(`Employee Name: ${empName}`);
     }
-
 }
-
 class Child extends Parent {
 
     printEmpData(empName:string):void{

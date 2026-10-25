@@ -40,7 +40,7 @@ class Class1{
 
 //Child Class
 class Class2 extends Class1{
-
+ 
     //Method to access the data from class 1 
     printData(){
         console.log(`Name: ${this.name}`);
@@ -62,7 +62,6 @@ class Class3{
         obj.setAge(35); // Example of using the public setter method to update age
         // obj.printData();
     }
-
 }
 
 let obj3 = new Class3();

@@ -5,8 +5,10 @@
   },
   "type": "module",
   "dependencies": {
+    "@types/pg": "^8.23.1",
     "excel": "^0.1.7",
     "pdf-parse-new": "^2.1.0",
+    "pg": "^8.23.1",
     "xlsx": "^0.18.5"
   }
 }
