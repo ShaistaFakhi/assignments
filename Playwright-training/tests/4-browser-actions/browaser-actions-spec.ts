@@ -5,9 +5,9 @@ import { chromium, expect, test } from '@playwright/test';
 test('playwright browser actions', async ({ }) => {
 
     //Launch the 'Chromium' browser engine to launch the Edge browser. 
-     const browserEngine1 = await chromium.launch(); //launch chrome browser engine 
+    // const browserEngine1 = await chromium.launch(); //launch chrome browser engine 
     const browserEngine = await chromium.launch({channel: 'msedge' , headless: false}); //launch edge browser engine in headed mode
-
+    const browserContext = await browserEngine.newContext();
     
 
     //Clear all the cookies within the browser context. 
